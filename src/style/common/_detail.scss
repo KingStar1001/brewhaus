@@ -1,0 +1,57 @@
+.detail {
+  background: #ebebeb;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+}
+
+.label-1 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.label-2 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.label-3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.label-4 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.close {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.brand-container {
+  width: 100px;
+}
+
+.brand {
+  height: 200px;
+}
+
+.detail {
+  .main {
+    padding-left: 40px;
+  }
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}

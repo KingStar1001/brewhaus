@@ -1,0 +1,48 @@
+.header {
+  height: 76px;
+  background-color: #1d2c3c !important;
+  padding: 0px !important;
+  display: flex;
+  align-items: center;
+}
+
+.header .label {
+  color: #ffe06e;
+  font-size: 2rem;
+}
+
+.header .logo {
+  width: 35px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.dashboard {
+  position: relative;
+}
+
+.dashboard .search {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+
+.is-flex {
+  display: flex;
+}
+
+.is-half-width {
+  width: 50%;
+}
+
+.is-full-width {
+  width: 100%;
+}
+
+.pt-1 {
+  padding-top: 0.5rem;
+}
+
+.pt-2 {
+  padding-top: 1rem;
+}
